@@ -1,0 +1,654 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/* select*/
+header{
+    height: 120px;
+    background-color: rgb(0, 0, 94);
+    width: 1230px;
+    position: relative;
+}
+#head{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+#head h1{
+    font-size: 50px;
+    color: white;
+    margin-left: 5px;
+}
+nav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 94);
+    box-sizing: border-box;
+}
+nav table tr  td{
+   padding-left: 5px;
+}
+
+#home{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 94);
+    border:0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 94);
+    font-size: 20px;
+    height: 30px;
+}
+#admin{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 94);
+    border:0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 94);
+    font-size: 20px;
+    height: 30px;
+}
+#thongbao{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 94);
+    border:0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 94);
+    font-size: 20px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#keyword{
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 94);
+    border:0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 94);
+    font-size: 20px;
+    height: 30px;
+}
+#search{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 94);
+    border:0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 94);
+    font-size: 20px;
+    margin-left: 5px;
+    height: 30px;
+}
+#select{
+    color: rgb(0, 0, 94);
+    background-color: rgb(255, 255, 255);
+    border:0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 94);
+    font-size: 20px;
+    height: 30px;
+}
+#giohang{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 94);
+    box-shadow: 0px 0px 5px rgb(0, 0, 94);
+    border:0;
+    border-radius: 5px;
+    font-size: 22px;
+    margin-left: 5px;
+    height: 30px;
+}
+#avatar{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    overflow: hidden;
+    margin-left: 10px;
+    box-shadow: 0 0 2px;
+}
+#avatar img{
+    width: 40px;
+    height: 40px;
+}
+#dangky{
+    background-color: rgb(255, 255, 70);
+    color: rgb(0, 0, 94);
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 94);
+    height: 30px;
+}
+#dangnhap{
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 70);
+    color: rgb(0, 0, 94);
+    box-shadow: 0px 0px 5px rgb(0, 0, 94);
+    height: 30px;
+}
+/* page home*/
+#page_home{
+    position: relative;
+    width: 1230px;
+    
+    background-color: white;
+}
+#bai_viet{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bai_viet button{
+    width: 140px;
+    height: 100%;
+    font-size: 150px;
+    display: none;
+    background-color: white;
+    border: 0;
+    opacity: 0.5;
+}
+#bai_viet:hover button{
+    display: block;
+}
+#noi_dung{
+    width: 850px;
+    height: 100%;
+    border-radius: 40px;
+    background-color: rgb(5, 110, 117);
+    overflow: hidden;
+}
+#noi_dung ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 100%;
+}
+#noi_dung ul li{
+    width: 850px;
+    height: 100%;
+    float: left;
+}
+#noi_dung ul li img{
+    width: 100%;
+    height: 100%;
+}
+/* bán chạy*/
+#ban_chay{
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+#ban_chay h1{
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(0, 0, 94);
+    color: white;
+}
+#ban_chay2{
+    width: 100%;
+    height: 342px;
+    overflow: auto;
+    background-color: rgb(204, 204, 204);
+}
+#ban_chay2 table{
+    text-align: center;
+    height: 300px;
+    margin-top: 15px;
+}
+#ban_chay2 table  tr  td{
+    padding-left: 20px;
+    border: 0;
+}
+#ban_chay3{
+    margin: 0;
+    padding: 0;
+    width: 260px;
+    height: 298px;
+    background-color: black;
+    border: 2px solid black;
+}
+#ban_chay3 b{
+    height: 30px;
+    font-size: 25px;
+    color: rgb(255, 45, 45);
+}
+#ban_chay3 img{
+    width: 100%;
+    height: 238px;
+}
+#ban_chay3 span{
+    height: 30px;
+    font-size: 25px;
+    color: rgb(255, 45, 45);
+}
+/* ds sách*/
+#tat_ca_sach{
+    width: 100%;
+    height: 950px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+#tat_ca_sach h1{
+    margin: 0;
+    width: 100%;
+    height: 35px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(0, 0, 94);
+    color: rgb(255, 255, 255);
+}
+#tat_ca_sach ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    height: 790px;
+    overflow: auto;
+}
+#tat_ca_sach ul li{
+    width: 275px;
+    height: 380px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+    overflow: hidden;
+}
+#tat_ca_sach a{
+    text-decoration: none;
+}
+#tat_ca_sach ul li:hover figcaption{
+    background-color: rgb(0, 0, 0);
+
+}
+#tat_ca_sach ul li img{
+    width: 100%;
+    height: 320px;
+}
+#tat_ca_sach ul li figcaption{
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 0, 94);
+    margin-top: -5px;
+}
+#tat_ca_sach ul li figcaption #tensach{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tat_ca_sach ul li figcaption #gia{
+    width: 100%;
+    height: 20px;
+    color: white;
+    font-size: 18px;
+}
+/* chi tiet sp*/
+#ctsp{
+    position: relative;
+    width: 1230px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ctsp div{
+    width: 1000px;
+    height: 700px;
+    border: 0;
+    box-shadow: 0 0 10px;
+    display: flex;
+    margin: 0;
+}
+#ctsp div article{
+    background-color: blue;
+    width: 450px;
+    height: 700px;
+    border: 0;
+}
+#ctsp figure{
+    margin: 0;
+    width: 100%;
+    height: 600px;
+}
+#ctsp figure img{
+    width: 100%;
+    height: 100%;
+}
+#ctsp figcaption{
+    width: 450px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 94);
+}
+#ctsp figcaption button{
+    font-size: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border: 0;
+    box-shadow: 0px 0px 5px ;
+    border-radius: 8px;
+}
+#ctsp ul{
+    list-style: none;
+}
+#ctsp ul li{
+    font-size: 26px;
+    margin-top: 13px;
+}
+
+/* page login*/
+#login{
+    position: relative;
+    background-color: aliceblue;
+    width: 1230px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login form{
+    width: 700px;
+    height: 500px;
+    background-color: rgb(255, 239, 95);
+    text-align: center;
+}
+#login table{
+    font-size: 24px;
+    width: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+#login table tr td{
+    padding-top: 15px;
+
+}
+#login input{
+    width: 300px;
+    height: 30px;
+    font-size: 25px;
+    border: 0;
+    box-shadow: 0 0 8px;
+    border-radius: 8px;
+}
+#login .btn_login{
+    font-size: 25px;
+    border: 0;
+    box-shadow: 0 0 8px;
+    border-radius: 8px;
+    height: 40px;
+    margin-top: 10px;
+}
+/* page infor*/
+#infor{
+    position: relative;
+    background-color: aliceblue;
+    width: 1230px;
+    height: 600px;
+}
+#infor div{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 94);
+    margin-top: 20px;
+}
+#infor div img{
+    margin-left: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+#infor div h1{
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+}
+#infor form{
+    height: 535px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infor{
+    list-style: none;
+    box-shadow: 0 0 8px;
+    width: 600px;
+    height: 500px;
+    margin-right: 20px;
+}
+.infor li{
+    font-size: 24px;
+    margin-top: 20px;
+}
+.setting{
+    list-style: none;
+    box-shadow: 0 0 8px;
+    width: 400px;
+    height: 500px;
+    margin-left: 20px;
+}
+.setting li{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 0;
+}
+.setting button{
+    font-size: 24px;
+    width: 100%;
+    background-color: rgb(0, 0, 94);
+    color: white;
+    margin-left: -20px;
+}
+/* page updat infor customer*/
+#update_infor_user{
+    position: relative;
+    background-color: aliceblue;
+    width: 1230px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#update_infor_user form{
+    font-size: 24px;
+}
+#update_infor_user table{
+    border-radius: 8px;
+    box-shadow: 0 0 10px;
+}
+#update_infor_user input{
+    height: 40px;
+    width: 300px;
+    font-size: 24px;
+}
+#update_infor_user img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#update_infor_user button{
+   background-color: greenyellow;
+    font-size: 24px;
+}
+/* dialog */
+#order{
+    width: 800px;
+    height: 550px;
+    background-color: rgb(214, 214, 214);
+}
+#order table{
+    font-size: 24px;
+}
+#order h1{
+    background-color: rgb(0, 0, 94);
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+#order img{
+   width: 350px;
+   height: 400px;
+}
+#order div{
+    width: 100%;
+    height: 40px;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+}
+#order button{
+    font-size: 24px;
+    width: 150px;
+    background-color: rgb(0, 0, 94);
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#order input{
+    width: 240px;
+    height: 25px;
+    font-size: 24px;
+ }
+/* cart */
+#cart{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    background-color: aliceblue;
+    width: 1230px;
+    display: flex;
+    justify-content: center;
+}
+#cart table{
+    width: 1000px;
+    border-collapse: collapse;
+    font-size: 24px;
+    text-align: center;
+    border: 1;
+    box-shadow: 0 0 8px;
+
+}
+#cart img{
+    width: 200px;
+    height: 250px;
+}
+#cart button{
+    font-size: 24px;
+    background-color: rgb(0, 0, 94);
+    color: white;
+}
+/* page message*/
+#message{
+    position: relative;
+    background-color: rgb(219, 219, 219);
+    width: 1230px;
+    height: 600px;
+    overflow: auto;
+}
+#message h1{
+    background-color: rgb(0, 0, 94);
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+#message table{
+    font-size: 24px;
+    padding-left: 20px;
+}
+#message table tr td{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: 5px solid white;
+}
+/* sign_up*/
+#sign_up{
+    width: 1230px;
+    height: 700px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+#sign_up h1{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+#sign_up table{
+    font-size: 24px;
+}
+#sign_up #nam{
+    font-size: 24px;
+    width: 30px;
+}
+#sign_up #nu{
+    font-size: 24px;
+    width: 30px;
+    margin-left: 30px;
+}
+#sign_up input{
+    font-size: 24px;
+    width: 300px;
+    height: 30px;
+}
+#sign_up div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#sign_up button{
+    font-size: 24px;
+    background-color: greenyellow;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* page footer*/
+footer{
+    position: relative;
+    width: 1230px;
+    height: 400px;
+    background-color: rgb(0, 0, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+    color:white;
+}
